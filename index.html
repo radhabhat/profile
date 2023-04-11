@@ -28,14 +28,10 @@
 
 <body>
 	<script type="text/javascript">
-        var blink = 
-            document.getElementById('blink');
-  
-        setInterval(function () {
-            blink.style.opacity = 
-            (blink.style.opacity == 0 ? 1 : 0);
-        }, 1000); 
-        </script>
+	$(window).load(function() {
+	$('#slider').nivoSlider();
+	});
+	</script>
 <div id="wrapper960" class="clearfix">
 	<div id="toplinks">
 		<ul class="toplinks_links">
